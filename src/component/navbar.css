@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-body {
+  background-color: blanchedalmond;
+}
+.component-nav {
+  padding: 20px;
+  background-color: navajowhite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+ul li {
+  display: flex;
+}
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+}
+.btn {
+  background-color: antiquewhite;
+  height: 40px;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
